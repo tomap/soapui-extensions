@@ -3,12 +3,12 @@
     "name": "SoapUI-Include",
     "friendlyName": "Soap UI - Include",
     "description": "Run Web Services Requests",
-    "helpMarkDown": "Using SoapUI 5.3.0",
+    "helpMarkDown": "Using SoapUI 5.4.0",
     "category": "Build",
     "author": "Tomap",
     "version": {
         "Major": 0,
-        "Minor": 0,
+        "Minor": 1,
         "Patch": 0
     },
     "minimumAgentVersion": "1.99.0",
