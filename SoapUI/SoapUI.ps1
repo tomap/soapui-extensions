@@ -49,7 +49,7 @@ Write-Host("##vso[task.setvariable variable=SOAPUI_EXE;]$soapUiExe")
 $args = ""
 if($arguments)
 {
-	$args = $args + $argumetns
+	$args = $args + $arguments
 }
 $args = $args + " " + $projectFile
 Write-Host("Executing Soap UI $soapUiExe with args: $args")
