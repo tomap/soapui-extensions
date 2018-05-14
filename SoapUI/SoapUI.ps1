@@ -13,8 +13,8 @@ $path = split-path $MyInvocation.MyCommand.Path
 
 if(!(Test-Path ($path + "\soapui"))){
 	
-	$urlZip = "https://s3.amazonaws.com/downloads.eviware/soapuios/5.4.0/SoapUI-5.4.0-windows-bin.zip"
-	
+	##$urlZip = "https://s3.amazonaws.com/downloads.eviware/soapuios/5.4.0/SoapUI-5.4.0-windows-bin.zip"
+	$urlZip = "https://ajeetgithub.blob.core.windows.net/soupui/SoapUI-5.4.0-windows-bin.zip"
 	$output = $path + "\soapui.zip"
 	Write-Host "Is: "
 	Write-Host (Test-Path $path)
